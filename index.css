@@ -1,0 +1,119 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #d3bb85;  /* Dark blue */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #a0c4ff;  /* Light blue */
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(171, 122, 243, 0.1);
+}
+
+#about {
+    background-color: #fcffa0;  /* Light blue */
+    font-size: larger;
+}
+
+#about .profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin:  auto 1em auto;
+    border: 5px solid #fff;
+}
+
+#skills {
+    background-color: #cfe0b3;  /* Soft blue */
+}
+
+#education {
+    background-color: #9fd4d8;  /* Light blue */
+}
+
+#projects {
+    background-color: #957bab;  /* Soft blue */
+}
+
+#projects .project {
+    background-color: #e9ecef;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#certificates {
+    background-color: #a0c4ff;  /* Light blue */
+}
+
+#habits {
+    background-color: #b3cde0;  /* Soft blue */
+}
+
+#contact {
+    background-color: #a0c4ff;  /* Light blue */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #1e3a8a;  /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #1e3a8a;  /* Dark blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
